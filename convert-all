@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+cd /input
+
+for file in *.epub
+do
+  /opt/kindlegen/kindlegen "$file" || true
+  mv "${file%.epub}.mobi" /output
+done
