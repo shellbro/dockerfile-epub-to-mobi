@@ -2,8 +2,8 @@
 
 [![](https://img.shields.io/docker/cloud/build/shellbro/epub-to-mobi)](https://hub.docker.com/r/shellbro/epub-to-mobi/)
 
-Convert all EPUB (&ast;.epub) e-books from `/input` dir to Mobipocket
-(&ast;.mobi) e-books saved to `/output` dir with Amazon's KindleGen.
+Convert all EPUB (&ast;.epub) books from `/input` dir to Mobipocket (&ast;.mobi)
+books saved to `/output` dir with Amazon's KindleGen.
 
 ## Usage
 
